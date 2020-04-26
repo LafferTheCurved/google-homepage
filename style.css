@@ -1,0 +1,194 @@
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+.browser {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    line-height: 40px;
+    margin-top: 10px;
+    }
+.search-button {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   margin-left:500px;
+   margin-right: 500px;
+   margin-top: 30px;
+   
+}
+.search-button-color{
+    background-color: #f2f2f2;
+    border:1px solid #f2f2f2;
+    color: #5F6368;
+    padding:10px;
+    height: 36px;
+    margin: 11px 4px;
+    cursor: pointer;
+    border-image-repeat: stretch;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    border-radius: 4px;
+    text-align: center;
+}
+.search-button-color:hover {
+    border: 1px solid gray;
+    color: black;
+}
+input {
+    border-radius: 20px;
+    border: 6px hidden;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+    background-image: url(https://www.freeiconspng.com/uploads/search-icon-png-1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    text-indent: 55px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 80%;
+}
+.button-normal{
+    font-size: 13px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    color: black;
+    margin-top: 11px;
+}
+.button-normal:hover {
+    text-decoration: underline;
+}
+.icon-block {
+    cursor:pointer;
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+.icon-cuadrado {
+    display: grid;
+    grid-template-columns: 5px 5px 5px;
+    grid-template-rows: 5px 5px 5px;
+    grid-gap: 2px 2px;
+
+}
+.button-sing-in{
+    background-color: #4285f4;
+    color: white;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    border: 1px solid #fff;
+}
+.footer{
+    margin-top: 100px;
+}
+.argentina {
+    display: flex;
+    background-color: #f2f2f2;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    height: 45px;
+    width: 100%;
+    align-items: center;
+    border: 1px solid rgb(228, 228, 228);
+}
+.a-argentina{
+    text-indent: 11px;
+    opacity: 0.5;
+    margin-right: auto;
+}
+.footer-2{
+    display: flex;
+    background-color: #f2f2f2;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    height: 45px;
+    width: 100%;
+    align-items: center;
+    border: 1px solid #e4e4e4;
+}
+.footer-3{
+    display: flex;
+    align-content: flex-start;
+}
+.footer-4{
+    display: flex;
+    align-content: flex-end;
+    margin:0 0 0 auto;
+}
+.a-publicidad {
+    margin-right: auto;
+    opacity: 0.5;
+    text-indent: 11px;
+}
+.a-publicidad:hover{
+    text-decoration: underline;
+}
+.a-negocios{
+    margin-right: auto;
+    opacity: 0.5;
+    text-indent: 11px;
+}
+.a-negocios:hover {
+    text-decoration: underline;
+}
+.a-sobre-google{
+    margin-right: auto;
+    opacity: 0.5;
+    text-indent: 11px;
+}
+.a-sobre-google:hover{
+    text-decoration: underline;
+}
+.a-como-funciona{
+    margin-right: auto;
+    opacity: 0.5;
+    text-indent: 11px;
+}
+.a-como-funciona:hover{
+    text-decoration: underline;
+}
+.a-privacidad{
+    margin-left: auto;
+    opacity: 0.5;
+    text-indent: 11px;
+}
+.a-privacidad:hover{
+    text-decoration: underline;
+}
+.a-condiciones{
+    margin-left: auto;
+    opacity: 0.5;
+    text-indent: 11px;
+}
+.a-condiciones:hover{
+    text-decoration: underline;
+}
+.a-preferencias{
+    margin-left: auto;
+    opacity: 0.5;
+    text-indent: 11px;
+}
+.a-preferencias:hover{
+    text-decoration: underline;
+}
